@@ -56,3 +56,7 @@ data/puzzle_images/*
 narrative/memory/*/vdb_*.json
 narrative/memory/*/graph_chunk_entity_relation.graphml
 narrative/memory/*/kv_store_*.json
+# User settings
+config/settings.json
+data/theme/theme.json
+data/font/font.json
