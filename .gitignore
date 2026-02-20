@@ -46,16 +46,20 @@ frontend/.vite/
 logs/
 *.log
 
-# Runtime data/cache
-data/audio/cache/
-data/sessions/*.json
-!data/sessions/.gitkeep
+# Runtime data/cache/personal contents
+data/audio/
+data/sessions/
+data/music/
 data/uploads/
-data/puzzle_images/*
-!data/puzzle_images/.gitkeep
+data/puzzle_images/
+# Preserve structure
+!data/**/.gitkeep
+
+# Narrative memory RAG data
 narrative/memory/*/vdb_*.json
 narrative/memory/*/graph_chunk_entity_relation.graphml
 narrative/memory/*/kv_store_*.json
+
 # User settings
 config/settings.json
 data/theme/theme.json
