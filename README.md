@@ -76,7 +76,11 @@ EmaAgent 是一个多模式智能助手系统 也是我的第一个智能体项�
 
 <details>
 
-## v0.3 - 2026-03-06
+### v0.3 - 2026-03-17
+修改报错显示找不到mcp的bug
+感谢B站用户[冷冻的松针同志](https://space.bilibili.com/481006255?spm_id_from=333.40164.0.0)反馈的bug
+
+### v0.3 - 2026-03-06
 增加前端配置MCP的功能
 
 ### v0.3 - 2026-03-02
@@ -87,7 +91,7 @@ EmaAgent 是一个多模式智能助手系统 也是我的第一个智能体项�
 提供快速配置 把MCP信息放到`config`文件夹下的`mcp.json`即可
 
 ### v0.2 - 2026-02-22
-感谢B站用户[Jason1044](https://space.bilibili.com/668402457?spm_id_from=333.40164.0.0)汇报bug
+感谢B站用户[Jason1044](https://space.bilibili.com/668402457?spm_id_from=333.40164.0.0)反馈的bug
 ```shell
 Command not found: npm. Install Node.js (managed by nvm-windows in .\setup.ps1).
 所在位置 E:\EmaAgent-main\start.ps1:27 字符: 9
