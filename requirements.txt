@@ -33,3 +33,6 @@ baidusearch==1.0.3
 
 # Logging
 colorama==0.4.6
+
+# mcp
+mcp==1.26.0
